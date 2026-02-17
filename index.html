@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Las mentirosas</title>
+    <style>
+        #mentirosa1 {
+            color: red;
+        }
+    </style>
+    <style>
+        #hola { border: 2px solid black; /* borde tipo cartel */ background-color: #2cad62; /* fondo claro */ padding: 15px; width: fit-content; margin: 20px; /* margen simple, ya no centrado */ border-radius: 8px; }
+    </style>
+    <style>
+        body {
+  background-color: #d2b48c; /* tono marrón claro (tan) */
+}
+    </style>
+    <style> #btnSi { background-color: lightgray; padding: 10px 20px; margin: 5px; border: none; cursor: pointer; } #btnNo { background-color: lightgray; padding: 10px 20px; margin: 5px; border: none; cursor: pointer; } #btnSi.verde { background-color: green; color: white; } </style>
+</head>
+<body>
+    <h1>LA MAS MENTIROSA</h1>
+    <h2 id="mentirosa1">¿Ya la conocías?</h2>
+    <div id="hola"
+    <p <strong>CONOCES A LAS TIPOS DE</strong> <em>MENTIROSAS</em></p>
+    </div>
+    <figure>
+    <img src="men1.jpg" width="350" height="350">
+    <figcaption>
+        <ol>
+            <li>Suelen jugar volley</li>
+            <li>Suelen utilizarte</li>
+            <li>Dan pesimo regalos</li>
+        </ol>
+    </figcaption>
+    </figure>
+    <hr>
+    <h2>¿Es verdad?</h2> <button id="btnSi">Sí</button> <button id="btnNo">No</button> <script>
+  const btnSi = document.getElementById("btnSi");
+  const btnNo = document.getElementById("btnNo");
+
+  btnSi.addEventListener("click", () => {
+    btnSi.classList.add("verde"); // cambia a verde
+  });
+
+  btnNo.addEventListener("click", () => {
+    alert("Sí, es verdad"); // muestra alerta
+  });
+</script>
+
+</body>
+</html>
